@@ -16,6 +16,9 @@ clone the repo, then:
 
 4. Then save the file and go back to Powershell terminal.
 
-5. Paster `Copy-Item .\VK-Messenger-Dark-Theme.vktheme -Destination "$Env:LOCALAPPDATA\Packages\C6965DD5.VKMessenger_v422avzh127ra\LocalCache\Roaming\VK\themes" -Force` and execute
+5. Paste and execute
 
-P. S. Command will replace file without asking if it already existed.
+```Copy-Item .\VK-Messenger-Dark-Theme.vktheme -Destination "$Env:LOCALAPPDATA\Packages\C6965DD5.VKMessenger_v422avzh127ra\LocalCache\Roaming\VK\themes" -Force```
+
+
+P. S. Command will replace the file on the destination folder without asking if it already exists.
